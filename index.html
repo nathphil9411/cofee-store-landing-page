@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Cofeez Store</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<header>
+			<nav class="navbar">
+				<a href="" class="logo"> Coffeez <span>.</span></a>
+				<ul class="nav-links">
+					<span id="close-menu-btn" class="material-sybols-outlined"
+						>close</span
+					>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Products</a></li>
+					<li><a href="#">Testimonials</a></li>
+					<li><a href="#">About Us</a></li>
+					<li><a href="#">Contact Us</a></li>
+				</ul>
+				<span id="menu-btn" class="material-sybols-outlined">menu</span>
+			</nav>
+		</header>
+		<section class="hero">
+			<div class="content">
+				<h1>Start Your Day With Fresh Coffeez</h1>
+				<p>
+					There is Coffee, there is Coffeez, a brand you can trust. Enjoyed by
+					people around the world, Awaken your senses with a steaming cup of
+					coffeez
+				</p>
+				<button>Order Now</button>
+			</div>
+		</section>
+		<script>
+			const header = document.querySelector("header");
+			const menuBtn = document.querySelector("#menu-btn");
+			const closeMenu = document.querySelector("#close-menu-btn");
+
+			menuBtn.addEventListener("click", () => {
+				header.classList.toggle("show-mobile-menu");
+			});
+			closeMenu.addEventListener("click", () => {
+				menuBtn.click();
+			});
+		</script>
+	</body>
+</html>
