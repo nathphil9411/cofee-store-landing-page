@@ -23,7 +23,7 @@ Welcome to Coffeez, your ultimate destination for the finest coffee experience! 
 
 Ready to embark on a journey of coffee discovery? Connect with us today!
 
-- **Website:** [www.coffeez.com](#)
+- **Website:** [https://nathphil9411.github.io/cofee-store-landing-page/](#)
 
 ## Experience Coffeez Today!
 
